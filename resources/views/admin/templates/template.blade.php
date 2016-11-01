@@ -45,7 +45,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/admin/slider">Rocka'n'voo</a>
+                <a class="navbar-brand" href="/admin/slider">Oceânea</a>
             </div>            
             <!-- /.navbar-header -->
 			@include('admin.templates.header')

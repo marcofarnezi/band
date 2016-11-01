@@ -1,6 +1,6 @@
 @extends('admin.templates.template')
 @section('title')
-	Sobre a Rocka'n'voo
+	Sobre a Oceânea
 @stop
 @section('content')
     {!! Form::model($about, ['route' => 'about.store', 'method' => 'post']) !!}

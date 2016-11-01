@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Rocka'n'voo</title>
+    <title>Oceânea</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -342,7 +342,7 @@ c.parentNode.insertBefore(cp, c); })(); </script><noscript>Powered by Cincopa <a
                                 <input type="email" name="email" class="form-control" required="required" placeholder="Email">
                             </div>
                             <div class="form-group">
-                                <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Contrate a Rocka'n'voo"></textarea>
+                                <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Contrate a Oceânea"></textarea>
                             </div>
                             <div class="form-group">
                                 <button type="submit" class="btn btn-primary pull-right">Enviar</button>

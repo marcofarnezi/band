@@ -8,7 +8,7 @@
 @extends('templates.header')
 @extends('templates.template')
 @section('title')
-    Rocka'n'voo
+    Oceânea
 @stop
 
 @section('link_social')
@@ -187,7 +187,7 @@
             <input type="email" name="email" class="form-control" required="required" placeholder="Email">
         </div>
         <div class="form-group">
-            <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Contrate a Rocka'n'voo"></textarea>
+            <textarea name="message" id="message" required="required" class="form-control" rows="4" placeholder="Contrate a Oceânea"></textarea>
         </div>
         <div class="form-group">
             <button type="submit" class="btn btn-primary pull-right">Enviar</button>

@@ -1,10 +1,11 @@
 <section id="about">
     <div class="guitar2">
-        <img class="img-responsive" src="images/guitar2.jpg" alt="guitar">
+        <img class="img-responsive" src="images/batera.png" alt="bateria" style="width: 80%;margin-left: 40px">
     </div>
     <div class="about-content">
         <h2>Sobre a banda</h2>
-        @yield('about_content')                
+        @yield('about_content')
+        <br>
         @yield('about_more_link')
     </div>
 </section><!--/#about-->
@@ -22,6 +23,7 @@
       <div class="modal-body" style="padding: 100px;">
         @yield('about_more')                
       </div>
+
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
       </div>

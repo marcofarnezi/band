@@ -103,11 +103,11 @@ h2 {
 }
 
 .navbar-brand {
-  background-color: #1B7B98;
+
   height: 90px;
   margin-bottom: 20px;
   position: relative;
-  width: 297px;
+  width: 317px;
 }
 
 .navbar-brand img {
@@ -116,7 +116,7 @@ h2 {
 }
 
 .navbar-right {
-  background-color: #1B7B98;
+  background-color: #444444;
   padding:0 95px 0 0;
   opacity: .9
 }
@@ -139,7 +139,7 @@ h2 {
 
 
 .fixed-menu {
-  background-color: #1B7B98;
+  background-color: #444444;
   position: fixed;
   top: 0;
 }
@@ -241,8 +241,8 @@ h2 {
 
 #main-slider 
 .carousel-indicators li {
-  background-color:#1B7B98;
-  border: 1px solid #1B7B98;
+  background-color:#444444;
+  border: 1px solid #444444;
 }
 
 #main-slider 
@@ -257,13 +257,17 @@ h2 {
 
 #explore {
   background-color: #C34C39;
-  background-image: url("../images/event-bg.png");
+  background-image: url("../images/wide_brick_tile_dark_6-ID-d6ead4fe-5ca4-4e7b-c843-b19bf5ac7395.jpg");
   background-position: center bottom;
   background-size: contain;
   background-repeat:no-repeat;
   position: relative;
   overflow: hidden;
   padding: 50px 0 100px;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .watch {
@@ -393,12 +397,16 @@ h2 {
 *******Event CSS******
 **************************/
 #event {
-  background-color: #33888F;
-  background-image: url("../images/performar-bg.jpg");
+  background-color: #444;
+  background-image: url("../images/frontend-large.jpg");
   background-position: 50% 0;
   background-size: contain;
   position: relative;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .guitar {
@@ -467,6 +475,16 @@ h2 {
   position: relative;  
   width: 100%;
   display: flex;
+  background-image: url("../images/frontend-large2.jpg");
+  background-position: 50% 0;
+  background-size: contain;
+  position: relative;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+
 }
 
 .guitar2 {
@@ -480,7 +498,7 @@ h2 {
 
 .about-content {
   width: 50%;
-   background-image: url("../images/about-bg.jpg");
+
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -585,11 +603,15 @@ h2 {
 
 #sponsor {
   background-color: #1881a2;
-  background-image: url("../images/sponsor-bg.jpg");
+  background-image: url("../images/Best-Website-Background-Images10.jpg");
   background-position:50% 0;
-  background-size: cover;
+
   background-repeat:no-repeat;
   position: relative;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .light {
@@ -659,11 +681,15 @@ h2 {
 
 .contact-section {
   background-color: #f7ab24;
-  background-image: url("../images/contact-bg.jpg");
+  background-image: url("../images/freebg1.jpg");
   background-position:60% 0;
   background-size:contain;
   background-repeat:no-repeat;  
   position: relative;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .ear-piece {
@@ -741,7 +767,7 @@ h2 {
 
 #footer {
   background-color: #212121;
-  background-image: url("../images/footer-bg.jpg");
+  background-image: url("../images/event-bg.jpg");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -755,7 +781,7 @@ h2 {
 }
 
 #footer a:hover {
-  color:#1B7B98
+  color:#444444
 }
 
 

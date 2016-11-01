@@ -11,9 +11,9 @@
                 </div>
             </div>
         </div>
-        <div class="light">
+        {{--<div class="light">
             <img class="img-responsive" src="images/light.png" alt="">
-        </div>
+        </div>--}}
     </div>
 </section><!--/#sponsor-->
 
