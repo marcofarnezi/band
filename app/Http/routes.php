@@ -4,6 +4,7 @@ Route::get('', ['as' => 'index.index', 'uses' => 'IndexController@index']);
 Route::post('/mail', ['as' => 'index.mail', 'uses' => 'IndexController@postContato']);
 
 Route::group(['prefix' => 'admin'], function () {
+
 	Route::group(['prefix' => 'slider'], function () {
 		Route::get('', ['as' => 'slider.index', 'uses' => 'SliderController@index']);
 		Route::get('create', ['as' => 'slider.create', 'uses' => 'SliderController@create']);
