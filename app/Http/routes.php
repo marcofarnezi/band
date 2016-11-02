@@ -1,6 +1,6 @@
 <?php
 
-Route::get('/', ['as' => 'index.index', 'uses' => 'IndexController@index']);
+Route::get('', ['as' => 'index.index', 'uses' => 'IndexController@index']);
 Route::post('/mail', ['as' => 'index.mail', 'uses' => 'IndexController@postContato']);
 
 Route::group(['prefix' => 'admin'], function () {
