@@ -33,9 +33,13 @@
 @section('menu_index')
     <li class="scroll active"><a href="#home">Inicio</a></li>
     <li class="scroll"><a href="#explore">Imprensa</a></li>
-    <li class="scroll"><a href="#event">Agenda</a></li>
+    @if(count($agendas) > 0)
+        <li class="scroll"><a href="#event">Agenda</a></li>
+    @endif
     <li class="scroll"><a href="#about">Sobre nós</a></li>
-    <li class="no-scroll"><a href="#sponsor">Apoiadores</a></li>                        
+    @if(count($sponsors) > 0)
+        <li class="no-scroll"><a href="#sponsor">Apoiadores</a></li>
+    @endif
     <li class="scroll"><a href="#contact">Contato</a></li>
 @stop
 
@@ -116,10 +120,10 @@
     @section('sponsor_content')
         <div class="item active">
             <ul>
-            @foreach($sponsors as $key_sponsor => $sponsor)  
-                @if(($key_sponsor)%6 == 0 && $key_sponsor != 0)                    
+            @foreach($sponsors as $key_sponsor => $sponsor)
+                @if(($key_sponsor)%6 == 0 && $key_sponsor != 0)
                     </ul>
-                    </div>   
+                    </div>
                     <div class="item">
                     <ul>
                 @endif
@@ -128,16 +132,16 @@
                         <img class="img-responsive" src="images/sponsor/{{ $sponsor['img'] }}" alt="">
                     </a>
                 </li>
-            @endforeach    
+            @endforeach
 
             </ul>
-        </div>    
+        </div>
     @stop
 
     @section('sponsor_btn')
         @if($key_sponsor > 5)
             <a class="sponsor-control-left" href="#sponsor-carousel" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-            <a class="sponsor-control-right" href="#sponsor-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a> 
+            <a class="sponsor-control-right" href="#sponsor-carousel" data-slide="next"><i class="fa fa-angle-right"></i></a>
         @endif
     @stop
 @endif

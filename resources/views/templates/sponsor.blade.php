@@ -1,3 +1,4 @@
+@if(count($sponsors) > 0)
 <section id="sponsor">
     <div id="sponsor-carousel" class="carousel slide" data-interval="false">
         <div class="container">
@@ -16,4 +17,5 @@
         </div>--}}
     </div>
 </section><!--/#sponsor-->
+@endif
 

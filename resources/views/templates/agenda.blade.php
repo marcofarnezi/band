@@ -1,3 +1,4 @@
+@if(count($agendas))
 <section id="event">
     <div class="container">
         <div class="row">
@@ -16,3 +17,4 @@
         </div>
     </div>
 </section><!--/#event-->
+@endif

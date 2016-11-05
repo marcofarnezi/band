@@ -22,13 +22,7 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                    	 @yield('menu')
-                        <li class="scroll active"><a href="#home">Inicio</a></li>
-                        <li class="scroll"><a href="#explore">Imprensa</a></li>
-                        <li class="scroll"><a href="#event">Agenda</a></li>
-                        <li class="scroll"><a href="#about">Sobre nós</a></li>
-                        <li class="no-scroll"><a href="#sponsor">Apoiadores</a></li>                        
-                        <li class="scroll"><a href="#contact">Contato</a></li>
+                    	 @yield('menu_index')
                     </ul>
                 </div>
             </div>
